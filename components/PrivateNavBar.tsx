@@ -34,7 +34,7 @@ export default function PrivateNavBar() {
                         key={item.label}
                         className={
                           cn('flex gap-4 items-center p-4 rounded-lg justify-start hover:scale-150 duration-300 ',
-                            isActive && 'bg-blue-100 rounded-3xl'
+                            isActive && 'bg-blue-200 rounded-3xl'
                           )
                         }
                       >
